@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body bgcolor="orange">
+    <h2>Registration </h2>  
+    <form name="myform" method="POST" action="check.php">  
+     <fieldset>  
+        
+     
+        <label>Enter your full name</label><br>  
+        <input type="text" id="rname" name="name"><br>  
+
+         <label>Enter phone no</label><br> 
+         <input type="text" id="rphone" name="phone"><br>  
+
+         <label>Enter your email</label><br> 
+         <input type="email" id="remail" name="email"><br>
+
+         <label>Enter your password</label><br>  
+         <input type="password" id="rpass" name="pass"><br>  
+
+         <label>Confirm your password</label><br>  
+         <input type="password" id="rcpass" name="conpass"><br> 
+
+         <br><label>Enter your gender</label><br>  
+         <input type="radio" id="gender1" name="gender" value="male"/>Male  <br>  
+         <input type="radio" id="gender2" name="gender" value="female"/>Female <br/>    
+         <input type="radio" id="gender3" name="gender" value="others"/>Others <br/>   
+          <br>Enter your Address:<br>  
+         <textarea id="raddress" name="address">Enter address here</textarea><br>  
+     </fieldset>  
+     <button type="submit" >Submit</button>
+  </form>  
+</body>
+</html>
